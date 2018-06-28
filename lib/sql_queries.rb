@@ -35,17 +35,7 @@ GROUP BY name
 ORDER BY pledges.amount"
 end
 
-=======
-"SELECT title, SUM(amount) - funding_goal FROM projects
-JOIN pledges ON projects.id = pledges.project_id
-WHERE SUM(amount) >= funding_goal"
-end
 
-# def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
-# "Write your SQL query Here"
-# end
-#
->>>>>>> 4ba293cf40bcbd748e1a1f9622f95b4da609327d
 # def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
 # "Write your SQL query Here"
 # end
